@@ -74,7 +74,7 @@ export const App = () => {
         setBad(state => state + 1);
         break;
       default:
-        throw new Error('тыц');
+        throw new Error('There is no option with that name');
     }
   };
   const countTotalFeedback = () => {
